@@ -1,0 +1,16 @@
+h2+p {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ ul ul:only-child {
+    list-style-type:circle;
+} 
+
+ul:nth-child(even){
+    border-bottom: 1px solid gray;
+    color: aqua;
+}
