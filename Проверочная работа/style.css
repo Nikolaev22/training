@@ -35,8 +35,7 @@ a:hover {
   color: green;
 }
 
-ul {
-    background-color: #eeee;
-    border: 5px solid purple;
-    padding: 20px;
+tr:nth-child(2n) {
+
+  color:red;
 }
