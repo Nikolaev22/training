@@ -15,7 +15,7 @@ p:first-child::first-line {
     color: red;
 }
 
-td:nth-of-type {
+tr:nth-child(even) {
     background-color: #333;
     color: white;
 }
