@@ -34,8 +34,3 @@ a:hover {
   text-decoration:none;
   color: green;
 }
-
-tr:nth-child(2n) {
-
-  color:red;
-}
