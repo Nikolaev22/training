@@ -10,7 +10,7 @@ ul {
     list-style-type:circle;
 } 
 
-ul:nth-child(even){
+ul:nth-child(1){
     border-bottom: 1px solid gray;
     color: aqua;
 }
