@@ -1,0 +1,39 @@
+/*p {
+    border: 5px solid black;
+    width: 350px;
+    height: 150px;
+    margin: 111px;
+    padding: 51px;
+}
+
+.box {
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+  }
+  
+  .alternate {
+    box-sizing: border-box;
+    width: 390px;
+  }
+*/
+.boxing {
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+.box span {
+    background-color: pink;
+    border: 5px solid black;
+    padding: 1em;
+    display: inline-block;
+   background-image: url();
+   background-size: contain;
+    
+  }
