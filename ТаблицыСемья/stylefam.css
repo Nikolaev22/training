@@ -1,0 +1,43 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 128, 90);
+  }
+
+html {
+    font-family: 'Tilt Prism', cursive;
+
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  th, td {
+    padding: 20px;
+  }
+
+   /* color */
+   thead, tfoot {
+    background: url(Fam.jpg);
+    background-size: contain;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
