@@ -1,0 +1,113 @@
+
+body {
+    margin: 0px;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 30px;
+    color: black;
+    line-height: 1;
+}
+
+/*Меню*/
+.menu {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    color:aliceblue;
+}
+
+.logo {
+    border:rgb(255, 191, 0) 2px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.nav {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.nav_link {
+    margin-inline: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+}
+
+.nav_link:hover {
+    color: rgb(255, 191, 0);
+}
+
+.nav_link:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: rgb(255, 191, 0); /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+    position: absolute;
+}
+
+.nav_link:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color:  rgb(255, 191, 0); /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+
+/*первая страница*/
+
+.first-page {
+    width: 100%;
+    height: 100vh;
+    background: url("images/main_page.jpg") center no-repeat;
+    background-size: cover;
+    width: auto;
+    
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    color: aliceblue;
+    text-shadow: 1px 1px 10px black;
+}
+
+.home_text {
+    text-align: center;
+}
+
+/*вторая страница*/
+
+.second_page {
+    background-color: aliceblue;
+    height: 100vh;
+    display: flex;
+    width: 1500px;
+}
+
+.our_photo {
+    background: url("images/our_family.jpg") center no-repeat;
+    width: 50%;
+    height: 200px;
+}
+
+.about_us {
+    width: 50%;
+    height: 200px;
+}
