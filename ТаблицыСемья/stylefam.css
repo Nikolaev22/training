@@ -2,13 +2,14 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid rgb(0, 128, 90);
+    border: 3px solid rgb(142, 117, 27);
   }
 
 html {
     font-family: 'Tilt Prism', cursive;
 
 }
+
 
 thead th:nth-child(1) {
     width: 30%;
@@ -36,8 +37,19 @@ thead th:nth-child(1) {
 
    /* color */
    thead, tfoot {
-    background: url(Fam.jpg);
-    background-size: contain;
+    background: url(wood.jpg);
+    background-size: cover;
     color: white;
     text-shadow: 1px 1px 1px black;
+  }
+
+  /* Zagolovok */
+  caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
   }
